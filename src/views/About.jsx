@@ -1,18 +1,21 @@
 import { Fragment } from "react"
+import reactLogo from "../assets/react.svg"
+import reduxLogo from "../assets/redux-icon.svg"
+import routerLogo from "../assets/react-router.svg"
 
 const svgList = [
     {
-        path: new URL('../assets/react.svg', import.meta.url).href,
+        path: reactLogo,
         url: "https://react.dev/learn",
         name: "React Js"
     },
     {
-        path: new URL('../assets/redux-icon.svg', import.meta.url).href,
+        path: reduxLogo,
         url: "https://redux-toolkit.js.org/",
         name: "Redux toolkit"
     },
     {
-        path: new URL('../assets/react-router.svg', import.meta.url).href,
+        path: routerLogo,
         url: "https://reactrouter.com/en/main",
         name: "React router"
     }
