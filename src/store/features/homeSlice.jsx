@@ -24,7 +24,6 @@ const homeSlice = createSlice({
     extraReducers: (builder) => {
 
         builder.addCase(getRandomCats.fulfilled, (state, action) => {
-            // console.log(action.payload)
             state.catsLists = [...action.payload]
         })
     }

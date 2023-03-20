@@ -2,17 +2,17 @@ import { Fragment } from "react"
 
 const svgList = [
     {
-        path: "src/assets/react.svg",
+        path: new URL('../assets/react.svg', import.meta.url).href,
         url: "https://react.dev/learn",
         name: "React Js"
     },
     {
-        path: "src/assets/redux-icon.svg",
+        path: new URL('../assets/redux-icon.svg', import.meta.url).href,
         url: "https://redux-toolkit.js.org/",
         name: "Redux toolkit"
     },
     {
-        path: "src/assets/react-router.svg",
+        path: new URL('../assets/react-router.svg', import.meta.url).href,
         url: "https://reactrouter.com/en/main",
         name: "React router"
     }

@@ -11,8 +11,6 @@ const Cats = () => {
     const { categories, catsLists } = useSelector((store) => store.cats)
     const dispatch = useDispatch()
 
-    console.log(catsLists)
-
     const fetchCategory = useCallback(() => {
         dispatch(getCategories())
     }, [dispatch])
